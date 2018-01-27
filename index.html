@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>HP Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body background="assets/images/background.jpg">
+
+    <div class="jumbotron jumbotron-fluid mx-4" style="padding: 25px; margin-bottom: 20px; opacity: 0.4;">
+      <div class="container justify-content-center">
+        <h1 class="display-4 text-center">Harry Potter Trivia</h1>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row" id="initialize">
+        <div class="card col-sm-12 my-2 clearfix" style="opacity: 0.8;">
+          <div class="card-body">
+            <p class="text-center" style="padding-top: 12px;">Welcome to Hogwarts School of Witchcraft and Wizardry!</p>
+            <a class="btn btn-light col-sm-8" id="start" style="margin-left: 16.5%;">Click to Start</a>
+          </div>
+        </div>
+      </div>    
+
+      <div class="row" style="margin-top: 20px">
+        <div class="card col-md-12" style="opacity: 0.92;">
+          <p id="timer" class="text-center" style="display: none"></p>
+          <div class="card-body"> 
+            <p class="text-center" id="questions" style="padding-top: 20px; font-size: 40px;">Get ready for the questions!</p>
+            <div class="container">
+
+              <div class="row">
+                <div class="container" style="margin-left: 24.5%; visibility: hidden;">
+                  <a class="btn btn-light col-sm-8" id="choice1" style="margin-bottom: 10px;"></a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container" style="margin-left: 24.5%; visibility: hidden;">
+                  <a class="btn btn-light col-sm-8" id="choice2" style="margin-bottom: 10px;"></a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container" style="margin-left: 24.5%; visibility: hidden;">
+                  <a class="btn btn-light col-sm-8" id="choice3" style="margin-bottom: 10px;"></a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container" style="margin-left: 24.5%; visibility: hidden;">
+                  <a class="btn btn-light col-sm-8" id="choice4" style="margin-bottom: 10px;"></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="assets/javascript/app.js"></script>
+
+  </body>
+</html>
